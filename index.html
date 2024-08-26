@@ -1,11 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form id="userForm">
+      <input id="fullName" type="text" placeholder="Full Name" /> <br /><br />
+      <input id="email" type="text" placeholder="Email" /> <br /><br />
+      <input id="age" type="text" placeholder="Age"> <br /><br />
+      <input id="forMale" type="radio" name="Male"> <label for="forMale">Male</label> 
+      <input id="forFemale" type="radio" name="Female"> <label for="forFemale">Female</label> <br /><br />
+      <input type="checkbox" name="" id="reading"> <label for="reading">Reading</label> 
+      <input type="checkbox" name="" id="traveling"> <label for="traveling">Traveling</label>  <br /><br />
+
+      <button type="submit">Submit Form</button>
+    </form>
+
+    <p id="user-details"></p>
+
+    <script src="script.js"></script>
+  </body>
 </html>
